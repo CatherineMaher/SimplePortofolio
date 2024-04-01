@@ -69,6 +69,14 @@
 .projects{
   grid-template-columns: repeat(2,1fr);
  }
+ .boxes{
+  div{
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+
+  }
+}
 }
 
 @include mediaSm {
@@ -78,4 +86,14 @@
   .projects{
     grid-template-columns: repeat(1,1fr);
    }
+
+   .boxes{
+    div{
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+      margin-bottom: 3rem;
+  
+    }
+  }
+  
 }
